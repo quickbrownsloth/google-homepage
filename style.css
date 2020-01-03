@@ -15,7 +15,7 @@
 
 a{
 	text-decoration: none;
-	color: #000;
+	color: #000000;
 }
 
 .navl{
@@ -68,4 +68,55 @@ a{
 	padding: 67px 0 0;
 	height: 92px;
 	width: 272px;
+}
+
+/*Search Bar*/
+.search{
+	text-align: center;
+	color: #222222;
+	margin-top: 30px;
+	
+}
+
+.search-bar{
+	width: 582px;
+	height: 44px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0.5px solid #e6e6e6;
+	border-radius: 30px;
+}
+.search-img, .search-ip, .search-vc{
+	vertical-align: middle;
+}
+
+.search-img{
+	padding: 0 13px 0 0;
+}
+
+.search-ip{
+	padding: 0;
+	margin: 3px 0 3px 0;
+	width: 487px;
+	height: 34px;
+	border: none;
+}
+
+img.search-vc{
+	width: 15px;
+	height: 20px;
+}
+
+.buttons{
+	margin-top: 20px;
+}
+
+.btn-search, .btn-lucky{
+	margin: 11px 4px;
+	padding: 0 16px;
+	height: 36px;
+	border: none;
+	background-color: #F2F2F2;
+	color: #222222;
+	border-radius: 5px;
 }
