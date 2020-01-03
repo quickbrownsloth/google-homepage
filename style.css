@@ -1,0 +1,59 @@
+/* Navbar Styling */
+
+.nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font: 13px arial, sans-serif;
+	padding: 6px 6px 0 0;
+}
+
+.navr , .navr-link, .navr-menu{
+	display: inline-block;
+
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+.navl{
+	margin: 7px 0 0 10px;
+}
+
+.navl-item, .navr-i,{
+	padding: 0 0 0 15px;
+}
+
+.navr{
+	padding: 0 30px;
+}
+
+.navr-link{
+	margin: 0 15px 0 0;
+	height: 24px;
+}
+
+.nav-signin{
+	margin-top: -5.5px;
+	margin-left: 15px;
+	color: #FFFFFF;
+	background-color: #4285f4;
+	border: none;
+	padding: 7.5px 12px;
+	border-radius: 2px;
+	font-weight: bold;
+}
+
+.nav-signin, .menu{
+	vertical-align: middle;
+}
+
+.navr-i{
+	padding: 0 0 0 15px;
+}
+
+.navl-item{
+	padding: 0 0 0 15px;
+}
