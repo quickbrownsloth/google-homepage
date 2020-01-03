@@ -57,3 +57,15 @@ a{
 .navl-item{
 	padding: 0 0 0 15px;
 }
+
+/*Google Logo*/
+.logo{
+	margin: 47px 0 0;
+	text-align: center;
+}
+
+.logo-img{
+	padding: 67px 0 0;
+	height: 92px;
+	width: 272px;
+}
