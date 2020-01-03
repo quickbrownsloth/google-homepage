@@ -1,10 +1,13 @@
+*{
+	font: 13px arial, sans-serif;
+}
+
 /* Navbar Styling */
 
 .nav{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	font: 13px arial, sans-serif;
 	padding: 6px 6px 0 0;
 }
 
@@ -119,4 +122,31 @@ img.search-vc{
 	background-color: #F2F2F2;
 	color: #222222;
 	border-radius: 5px;
+}
+
+/*Footer*/
+.ftr{
+	display: flex;
+	justify-content: space-between;
+	height: 40px;
+	background-color: #F2F2F2;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	color: #5F6368
+}
+
+.ftr-l, .ftr-r{
+	display: inline-block;
+	height: 40px;
+	display: flex;
+	align-items: center;
+}
+
+.ftr-a, .ftr-biz, .ftr-how, .ftr-priv, .ftr-trm{
+	padding: 0 0 0 27px;
+}
+
+.ftr-stg{
+	padding: 0 27px;
 }
